@@ -1,10 +1,56 @@
-.header {
-  background-image: url(./images/desktop/image-header.jpg);
-  width: 100%;
-  height: 70vh;
-  background-size: cover;
+html {
+    margin: 0;
+    padding: 0;
 }
 
-.header .header-menu {
-  font-size: 100px;
+.header {
+    background-image: url(./images/desktop/image-header.jpg);
+    width: 100%;
+    height: 70vh;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.navbar {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.navbar .menu {
+    font-size: 1.5rem;
+    font-family: Barlow;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.navbar span {
+    margin-right: 2vw;
+}
+
+.contact {
+    background-color: white;
+    color: black;
+    padding: 0.5vw 1.5vw;
+    border-radius: 1.5vw;
+}
+
+.contact:hover {
+    background: rgba(255, 255, 255, 0.5);
+    color: white;
+}
+
+.header .header-slogan {
+    font-size: 4rem;
+    font-family: Fraunces;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    padding-top: 5vh;
+    padding-right: 5vh;
+    letter-spacing: 0.5rem;
 }
