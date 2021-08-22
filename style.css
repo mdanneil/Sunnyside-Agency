@@ -140,3 +140,52 @@ p {
     width: 50%;
     text-align: left;
 }
+
+.section3 {
+    display: flex;
+}
+
+.section3 .left,
+.right {
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
+
+.section3 img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.section3 .text-container {
+    position: absolute;
+    bottom: 1rem;
+}
+
+.section3 .left h3 {
+    font-family: Fraunces;
+    color: hsl(167, 42%, 24%);
+    font-weight: 900;
+}
+
+.section3 .right h3 {
+    font-family: Fraunces;
+    color: hsl(200, 61%, 26%);
+    font-weight: 900;
+}
+
+.section3 .left p {
+    color: hsl(168, 37%, 32%);
+    line-height: 1.5;
+    text-align: center;
+    padding: 0 20%;
+    font-family: Barlow;
+}
+
+.section3 .right p {
+    color: hsl(199, 76%, 27%);
+    line-height: 1.5;
+    text-align: center;
+    padding: 0 20%;
+    font-family: Barlow;
+}
