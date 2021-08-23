@@ -251,3 +251,47 @@ p {
 .client .details {
     padding: 3%;
 }
+
+.section5 {
+    display: flex;
+}
+
+.section5 img {
+    flex: 0.25;
+    width: 100%;
+}
+
+.footer {
+    background-color: hsl(167, 44%, 70%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.footer .logo {
+    fill: hsl(168, 47%, 30%);
+    filter: invert(70%) sepia(54%) saturate(300%) hue-rotate(116deg)
+        brightness(94%) contrast(90%);
+}
+
+.footer-navigation {
+    color: hsl(167, 33%, 42%);
+    font-family: Barlow;
+    margin-top: 2%;
+}
+
+.footer-navigation span {
+    padding: 1.5rem;
+}
+
+.footer-media {
+    margin-top: 2%;
+}
+
+.footer-media img {
+    margin-top: 2rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+}
