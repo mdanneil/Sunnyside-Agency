@@ -189,3 +189,65 @@ p {
     padding: 0 20%;
     font-family: Barlow;
 }
+
+.section4 h3 {
+    color: hsl(0, 0%, 67%);
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    margin-top: 10%;
+    margin-bottom: 7%;
+}
+
+.section4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(26, 100%, 99%);
+    padding: 1.5rem 0;
+}
+
+.section4 img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 5vw;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+.clients {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+.clients .client {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex: 0.3;
+}
+
+.client p {
+    text-align: center;
+    font-family: Barlow;
+    color: hsl(230, 3%, 43%);
+    line-height: 1.5;
+}
+
+.client h4 {
+    font-family: Fraunces;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.client h5 {
+    font-family: Barlow;
+    color: hsl(0, 0%, 67%);
+    margin-top: 1px;
+}
+
+.client .details {
+    padding: 3%;
+}
